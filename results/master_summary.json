@@ -1,0 +1,65 @@
+{
+  "generated_at": "2025-11-15T15:58:15.605766",
+  "num_sections": 13,
+  "sections": [
+    {
+      "moe_section_id": "MOE-0002",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0003",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0008",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0004",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0012",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0013",
+      "overall_compliance": "non_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0005",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0009",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0010",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0006",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0007",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0011",
+      "overall_compliance": "partially_compliant"
+    },
+    {
+      "moe_section_id": "MOE-0001",
+      "overall_compliance": "partially_compliant"
+    }
+  ],
+  "stats": {
+    "compliant": 0,
+    "partially_compliant": 12,
+    "non_compliant": 1,
+    "missing": 0,
+    "other": 0
+  }
+}

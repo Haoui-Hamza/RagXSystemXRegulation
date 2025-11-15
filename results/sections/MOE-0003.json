@@ -1,0 +1,96 @@
+{
+  "moe_section_id": "MOE-0003",
+  "moe_section_title": "Acceptance, Storage, Classification and Control of Components, Materials, Tools and Equipment",
+  "summary": "Describes receipt inspection, required airworthiness documentation for new/used/standard parts, classification and segregation of components into categories, storage conditions, scrapping procedures, and the registration, approval, and calibration control of tools and equipment, including substitute and self‑manufactured tools.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "145.A.40(a) & AMC 145.A.40(a) – availability and listing of tools",
+      "requirement_excerpt": "The organisation shall have available and use the necessary equipment and tools to perform the approved scope of work… All such tools and equipment… should be clearly identified and listed in a control register including any personal tools and equipment that the organisation agrees can be used.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that the technical director is responsible for procurement and that all tools and equipment are recorded and monitored, with a file for special tools. It also describes the possibility to rent rarely used tools and refers to a maintenance readiness review. However, it does not clearly state that all tools required by the maintenance data for the approved scope of work are ensured to be available when needed, nor does it explicitly cover personal tools or define the control register content in line with the AMC.",
+      "risk": "medium",
+      "recommended_fix": "Add a clear statement such as: \"The organisation ensures that all tools and equipment specified in the applicable maintenance data for the approved scope of work are available when required. All such tools and equipment, including any personal tools authorised for use, are uniquely identified and listed in a central tool control register, which includes at least: tool ID, description, location, applicable aircraft/component or task, and any servicing/calibration requirements. Tools required only on an occasional basis and obtained by rental are also listed in this register, with reference to the rental procedure described in the maintenance readiness review.\""
+    },
+    {
+      "requirement_id": "145.A.40(a)(i) – use of specified tools or agreed alternatives",
+      "requirement_excerpt": "Where the manufacturer specifies a particular tool or equipment, the organisation shall use that tool or equipment, unless the use of alternative tooling or equipment is agreed by the competent authority via procedures specified in the exposition.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes substitute tools/equipment and self‑manufactured tools, including comparison with the original tool and documentation of approval. However, it does not state that the use of alternative tooling is subject to agreement by the competent authority via the MOE procedures, nor does it link the internal approval process to such authority agreement.",
+      "risk": "high",
+      "recommended_fix": "Amend the substitute and self‑manufactured tool sections to state: \"Where the maintenance data specifies a particular manufacturer tool or equipment, that tool shall be used. Use of any alternative or self‑manufactured tool in lieu of a specified tool is only permitted when: (1) an equivalence assessment has been performed and documented by HTA/Technical Manager; and (2) the use of such alternative tooling has been agreed by the competent authority in accordance with Part‑145.A.40(a)(i), via this MOE procedure. The approval record shall reference the competent authority agreement (e.g. approval letter or MOE reference).\""
+    },
+    {
+      "requirement_id": "145.A.40(a)(ii) – permanent availability vs occasional tools",
+      "requirement_excerpt": "Equipment and tools must be permanently available, except in the case of any tool or equipment that is so infrequently used that its permanent availability is not necessary. Such cases shall be detailed in an exposition procedure.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE mentions that rarely needed tools may be rented and that the place and procedure for acquiring the rental tool are recorded in the maintenance readiness review. However, it does not clearly define in the MOE the criteria for considering a tool as \"infrequently used\" nor does it explicitly state that such cases constitute the exception to permanent availability as required by 145.A.40(a)(ii).",
+      "risk": "medium",
+      "recommended_fix": "Clarify the policy as follows: \"All tools and equipment required for the approved scope of work are permanently available, except for tools identified as infrequently used. Infrequently used tools are those required less than [define objective criterion, e.g. once per year] and are obtained by rental or borrowing. These tools and the associated acquisition procedure are described in the maintenance readiness review and listed in the tool control register as 'occasional use tools', thereby fulfilling 145.A.40(a)(ii).\""
+    },
+    {
+      "requirement_id": "145.A.40(b) & AMC 145.A.40(b) – control, calibration, labelling and records",
+      "requirement_excerpt": "The organisation shall ensure that all tools, equipment and particularly test equipment… are controlled and calibrated according to an officially recognised standard… Records of such calibrations and traceability to the standard used shall be kept… A clear system of labelling… giving information on when the next… calibration is due… A register should be maintained for all precision tooling and equipment together with a record of calibrations and standards used.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that a register is kept for maintenance and work equipment, that device cards are used for tools under time control, and that maintenance/calibration periods and performance are recorded. However, it does not explicitly require calibration to an officially recognised standard, does not state that traceability to the standard used is recorded, and does not clearly describe a labelling system indicating next calibration due date and unserviceable status as per the AMC.",
+      "risk": "high",
+      "recommended_fix": "Expand the tools and equipment maintenance section to state: \"All tools, equipment and test equipment requiring calibration are calibrated at intervals defined by the equipment manufacturer or based on in‑service experience, against an officially recognised standard (e.g. national or international metrology standards). Calibration certificates shall show traceability to the standard used. A tool register is maintained for all precision tools and test equipment, recording: tool ID, description, location, calibration interval, last calibration date, next due date, calibration provider, and reference to the standard used. Each calibrated item is labelled or tagged to show at least the tool ID, last calibration date, next due date, and its serviceability status. Tools found beyond their calibration due date or otherwise unserviceable are clearly marked as 'UNSERVICEABLE' and removed from use until recalibrated or repaired.\""
+    },
+    {
+      "requirement_id": "M.A.608(b) / AMC M.A.608(b) – parallel calibration expectations",
+      "requirement_excerpt": "Tools and equipment shall be controlled and calibrated to an officially recognised standard. Records of such calibrations and the standard used shall be kept… A clear system of labelling… A register should be maintained for all the organisation’s precision tooling and equipment together with a record of calibrations and standards used.",
+      "compliance": "partially_compliant",
+      "reasoning": "Although this is a Part‑M reference, it mirrors the expectations of 145.A.40(b). The MOE partially addresses registration and recording of maintenance/calibration but omits explicit reference to officially recognised standards, traceability, and a clear labelling system as described in the AMC.",
+      "risk": "medium",
+      "recommended_fix": "Align the MOE wording with the AMC by explicitly stating that calibration is performed to officially recognised standards, that calibration records include the standard used, and that a visible labelling system is applied to all relevant tools and equipment to indicate calibration status and due dates."
+    },
+    {
+      "requirement_id": "145.A.42(a)(i) & AMC1 145.A.42(a)(i) – acceptance of components with EASA Form 1 or equivalent",
+      "requirement_excerpt": "A document equivalent to an EASA Form 1 may be: (a) a release document issued under a bilateral agreement… (c) a JAA Form One issued prior to 28 November 2004… (e) a JAA Form One issued prior to 28 September 2005 by a production organisation… (f) a ‘declaration of maintenance accomplished’…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE lists acceptable documents for new and used parts (EASA/JAA Form 1, FAA 8130‑3/‑4, TCA Form 24‑0078, manufacturer certificates, EASA/NAA separately approved documentation) and states that missing documents must be obtained before approval, otherwise parts are returned. However, the list is outdated and not fully aligned with AMC1 145.A.42(a)(i): it refers to JAA forms with old dates, does not clearly reference EU bilateral agreements, and does not mention the 'declaration of maintenance accomplished' as an equivalent. The conditions for acceptance of FAA/TCA documents under current EU bilateral agreements are not clearly tied to the concept of 'equivalent to EASA Form 1'.",
+      "risk": "high",
+      "recommended_fix": "Update the component acceptance section to align with AMC1 145.A.42(a)(i). For example: \"New and used components may be accepted as serviceable (Category 1) only when accompanied by an EASA Form 1 or an equivalent release document as defined in AMC1 145.A.42(a)(i), such as: (1) a release document issued under an EU bilateral agreement; (2) a JAA Form One issued prior to the applicable cut‑off dates; (3) a 'declaration of maintenance accomplished' in accordance with M.A.502(e)/ML.A.502(c), where applicable. Acceptance of FAA Form 8130‑3/‑4 or TCCA Form 24‑0078 is only permitted when issued under the terms of the relevant EU bilateral agreement and in accordance with the latest EASA guidance. The MOE shall reference the current EASA guidance or internal list of acceptable third‑country release documents. Any component in storage without an EASA Form 1 or equivalent shall not be installed unless processed in accordance with AMC2 145.A.50(d).\""
+    },
+    {
+      "requirement_id": "M.A.501(b) – items in storage without EASA Form 1",
+      "requirement_excerpt": "Any item in storage without an EASA Form 1 or equivalent cannot be installed… unless an EASA Form 1 is issued for such item by an appropriately approved maintenance organisation…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that missing documents must be obtained before goods are approved and that goods without documents are returned to the supplier, and that parts with documentation shortcomings are clarified before acceptance into Category 1. However, it does not explicitly prohibit installation of items in storage without EASA Form 1 or equivalent, nor does it describe the process to issue an EASA Form 1 for such items in accordance with AMC2 145.A.50(d).",
+      "risk": "high",
+      "recommended_fix": "Add explicit text: \"Components in storage without an EASA Form 1 or equivalent release document are classified as unserviceable (Category 2) and shall not be installed on aircraft. Such components may only be returned to service after being processed and released on an EASA Form 1 by this or another appropriately approved Part‑145 organisation in accordance with AMC2 145.A.50(d). If this is not feasible, the components are returned to the supplier or scrapped in accordance with the scrapping procedure.\""
+    },
+    {
+      "requirement_id": "145.A.42(a)(ii) & AMC1 145.A.42(a)(ii) – identification and control of unserviceable components",
+      "requirement_excerpt": "The organisation should ensure the proper identification of any unserviceable components. The unserviceable status… should be clearly declared on a tag together with the component identification data and any information that is useful to define actions… Means should be provided to prevent unintentional separation of this tag…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE defines Category 2 (unserviceable) and Category 3 (beyond repair) parts, requires separate storage, and mentions a red card for unserviceable parts with identification and monitoring data. However, it does not explicitly require that the tag includes information such as in‑service times, maintenance status, preservation status, failures/defects, exposure to adverse conditions, or accident history, nor does it state how unintentional separation of the tag is prevented.",
+      "risk": "medium",
+      "recommended_fix": "Enhance the unserviceable component tagging procedure: \"Unserviceable components (Category 2 and 3) are identified with a red tag/card securely attached to the component to prevent unintentional separation. The tag includes at least: part number, serial number, description, category (2 or 3), reason for unserviceability (e.g. defect, damage, life limit exceeded, missing data), in‑service time/cycles where applicable, maintenance status, preservation status, any known failures/defects or malfunctions, exposure to adverse environmental conditions, and whether the component was installed on an aircraft involved in an accident/incident. This information is used to determine the necessary follow‑up actions (repair, overhaul, scrapping).\""
+    },
+    {
+      "requirement_id": "M.A.608(c) – inspection, classification and segregation of incoming components, standard parts and materials",
+      "requirement_excerpt": "The organisation shall inspect, classify and appropriately segregate all incoming components, standard parts and materials.",
+      "compliance": "compliant",
+      "reasoning": "The MOE describes receipt inspection, classification into categories (1–5), and segregation: serviceable, unserviceable, and beyond repair parts are stored separately in lockable cabinets; standard parts and general materials are recorded and stored separately. It also addresses handling of interrupted receipt inspections and the requirement to obtain missing documents before approval, or return goods to the supplier.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "GM1 M.A.501(a)(2) / AMC1 145.A.42(a)(ii) – causes and handling of unserviceable components",
+      "requirement_excerpt": "Unserviceable components should typically undergo maintenance due to: expiry of the service life limit… non-compliance with applicable airworthiness directives… absence of the necessary information to determine the airworthiness status or eligibility for installation…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE defines Category 3 as parts that have exceeded approved lifetime, have unrepaired faults/damage, or have been in an accident likely to affect airworthiness, and states that such parts are stored separately and handled per another section. However, it does not explicitly link unserviceable status to non‑compliance with ADs or absence of necessary information, nor does it clearly describe the decision process for maintenance vs scrapping in line with the guidance.",
+      "risk": "medium",
+      "recommended_fix": "Extend the category definitions to include: \"Unserviceable components include parts that: (1) have reached or exceeded their approved life limit; (2) are not in compliance with applicable airworthiness directives or other mandatory continuing airworthiness requirements; (3) lack sufficient information to determine their airworthiness status or eligibility for installation; (4) have unrepaired faults or damage; or (5) have been involved in an accident or incident likely to affect airworthiness. Such components are classified as Category 2 (repairable) or Category 3 (beyond repair) and handled accordingly (maintenance, further investigation, or scrapping).\""
+    },
+    {
+      "requirement_id": "145.A.42(c) / Part‑145 fabrication of parts (referenced in CS‑STAN excerpt)",
+      "requirement_excerpt": "Part‑M Subpart F, Part‑CAO and Part‑145 contain provisions (i.e. … 145.A.42(c)) that allow maintenance organisations to fabricate certain parts to be installed in/on the aircraft as part of their maintenance activities.",
+      "compliance": "unclear",
+      "reasoning": "The provided MOE text does not clearly address fabrication of aircraft parts under 145.A.42(c); it only covers manufacturing of tools/equipment, not aircraft parts. The regulatory excerpt only references 145.A.42(c) generically and does not provide detailed requirements, so a full compliance assessment is not possible.",
+      "risk": "low",
+      "recommended_fix": "If the organisation intends to fabricate aircraft parts under 145.A.42(c), add a dedicated subsection describing the scope of permitted fabricated parts, applicable design/maintenance data, manufacturing controls, identification/marking, and release procedures. If not intended, add a short statement: \"This organisation does not fabricate aircraft parts under 145.A.42(c); only tools and equipment are manufactured as described in this section.\""
+    }
+  ]
+}

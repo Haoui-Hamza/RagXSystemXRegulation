@@ -1,0 +1,104 @@
+{
+  "moe_section_id": "MOE-0012",
+  "moe_section_title": "Certifying staff, support personnel qualifications, exceptional procedures, customer interface and supporting lists",
+  "summary": "Section describes qualification and authorisation of certifying staff, support personnel, mechanics, installers, interns, special work qualifications, human factors and competence assessment, control of external working teams, procedures for deviations from maintenance data and from MOE procedures, basic customer interface/maintenance contract statements, and references to appendices, forms and subcontractor lists.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "145.A.70(a) & EASA Form 6 Part 3.9/3.10/3.14/3.19",
+      "requirement_excerpt": "3.9 Certifying staff and support staff qualifications, authorisation and training procedures; 3.10 Certifying staff and support staff records; 3.14 Mechanics qualification and records; 3.19 Competency assessment of personnel.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE text describes roles (B1/B2 certifying staff, support persons, mechanics, installers, interns), who defines their responsibilities (technical director, quality manager), how qualifications are assessed (use of AMC/GM 145.A.30(e), annual review, training cards, personnel register), and that authorisation reviews for certifying staff are done per 3.4.1 and recorded on an authorisation review form. It also explains that training and experience are recorded on training cards with attached certificates. However, the procedures are fragmented, not clearly structured, and key elements are missing or vague: no clear description of the internal authorisation system (authorisation types, scope, format, validity periods, suspension/revocation), no explicit link between Part‑66 licences and company authorisations, no explicit retention periods for records, and terminology is inconsistent and sometimes unclear (e.g. “installer clearance qualifications”, “Mechanic A person…”).",
+      "risk": "medium",
+      "recommended_fix": "Introduce a clearly structured subsection titled e.g. “3.x Certifying staff, support staff and mechanics – qualification, authorisation and records” that: (1) Defines certifying staff, support staff and mechanics in line with Part‑145 terminology; (2) Describes the authorisation system (authorisation categories, scope, format/ID, validity, renewal, suspension/revocation, and who signs/approves); (3) States that company certifying staff authorisations are based on and limited by the individual’s Part‑66 licence and type training, where applicable; (4) Specifies that all qualification, authorisation and training records (including training cards, authorisation review forms, copies of licences and certificates) are retained for the period required by Part‑145 (cross‑refer to the MOE record‑keeping section); (5) Clarifies the process flow: initial competence assessment, training plan, OJT (if applicable), competence assessment, issue of authorisation, recurrent training and periodic re‑assessment. Use clear, simplified English and consistent terminology throughout."
+    },
+    {
+      "requirement_id": "AMC1 145.A.65(b)(2) & EASA Form 6 Part 3.17",
+      "requirement_excerpt": "3.17 Qualification procedure for specialised activities such as NDT, welding, etc. Specialised services include any specialised activity, such as, but not limited to, non-destructive testing requiring particular skills and/or qualification.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE defines ‘special work qualifications’ for penetrant dye inspection, borescope inspection and laminate structure tapping checks. It states that qualification requires tools and knowledge of instructions plus practical skill, which the technical manager may verify by a demonstration test. This addresses the existence of special qualifications and a basic qualification principle. However, it does not describe a full procedure: no details on training content/standards, qualification criteria, validity periods, recurrent training, re‑authorisation, record‑keeping, or how these activities are controlled as specialised processes within the maintenance system.",
+      "risk": "medium",
+      "recommended_fix": "Expand the ‘SPECIAL QUALIFICATIONS’ subsection into a procedure that includes: (1) Entry requirements (background, prior training); (2) Required initial training syllabus and minimum duration for each special method; (3) Competence assessment method (theory and practical, including pass/fail criteria and documentation); (4) Authorisation format, scope and validity period; (5) Recurrent training and periodic re‑assessment requirements; (6) Record‑keeping (where and how training, examinations and authorisations are recorded and retained); (7) Reference to applicable standards or OEM instructions for each specialised method. Clarify that these activities are controlled under maintenance procedures in accordance with AMC1 145.A.65(b)(2)."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 3.18 – Management of external working teams",
+      "requirement_excerpt": "3.18 Management of external working teams.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that supervision of external working groups is organised case by case by the technical director and that the external team must always provide a Part‑145 maintenance certificate for the work performed. This covers the requirement that external teams are supervised and that they issue a maintenance release. However, it lacks a defined procedure: no criteria for selection/approval of external teams, no description of how work is planned, controlled and integrated into the organisation’s system, how findings are managed, or how records are handled.",
+      "risk": "medium",
+      "recommended_fix": "Create a dedicated subsection “Management of external working teams” that: (1) Defines when and for what tasks external teams may be used; (2) Requires that external organisations hold appropriate approvals and are listed in the MOE supporting lists (or contract file); (3) Describes how work scope is defined (work order/contract), how maintenance data is provided, and how the organisation supervises and coordinates the work; (4) States how the Part‑145 release from the external team is reviewed and how records are incorporated into the aircraft/component records; (5) Clarifies responsibilities of the technical director and quality/compliance monitoring for oversight and audits of external teams."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 3.15 – Process for exemption from aircraft/aircraft component maintenance tasks",
+      "requirement_excerpt": "3.15 Process for exemption from aircraft/aircraft component maintenance tasks.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes ‘MAINTENANCE EXCEPTIONAL PROCEDURES’ for deviations from the aircraft maintenance programme or maintenance instructions, requiring permission from the aviation authority or type certificate holder/manufacturer, with the operator applying for the change and the technical director ensuring appropriate approval before implementation. This addresses the need for a process to deviate from approved maintenance data. However, the procedure is not fully clear: responsibilities between operator and maintenance organisation are not sharply defined, the internal steps (documentation, risk assessment, record‑keeping) are not detailed, and terminology is confusing in places.",
+      "risk": "medium",
+      "recommended_fix": "Refine this subsection to: (1) Clearly state that the organisation will only perform maintenance in accordance with approved/accepted maintenance data and that any deviation or concession from such data requires prior written approval from the competent authority and/or TC holder, normally initiated by the operator; (2) Define the internal steps: identification of need, preparation of a deviation/concession request (including justification, risk assessment, proposed method, inspection/supervision arrangements), review by technical director and quality/compliance monitoring, verification of external approvals, and final internal authorisation; (3) Specify how the deviation approval and associated documentation are recorded in the aircraft/component records and in the organisation’s files; (4) Use clear, simplified English and consistent terminology (e.g. ‘deviation from maintenance data’ or ‘concession’)."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 3.16 – Concession control for deviations from the organisation’s procedures",
+      "requirement_excerpt": "3.16 Concession control for deviations from the organisation’s procedures.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE includes ‘ORGANIZATION PROCEDURES DEVIATION’ describing that if there is a need to deviate from MOE work and operating methods, an exception application is prepared by an approved responsible person after consulting the quality manager, explaining reasons, procedures, inspection/supervision and agreements with the NAA. It states that the exception procedure is accepted by the NAA and implemented by the technical director, and that the exception report is attached to the organisation’s records. This is a concession control concept, but it is high‑level and lacks detail on when NAA involvement is required, who approves internally, how long concessions are valid, how they are tracked, and how they are reviewed for incorporation into permanent procedures if recurrent.",
+      "risk": "medium",
+      "recommended_fix": "Clarify and expand this procedure to: (1) Define what constitutes a deviation from MOE procedures and when a concession is allowed; (2) Describe the internal approval chain (initiator, quality/compliance monitoring review, technical director/Accountable Manager approval) and when NAA approval is required versus internal approval only; (3) Include requirements for documenting each concession (unique ID, scope, duration/validity, affected procedures, risk assessment, mitigating measures); (4) Describe how concessions are tracked (log/register) and periodically reviewed, and how recurrent concessions trigger a formal MOE amendment; (5) Clarify record‑keeping requirements and retention periods."
+    },
+    {
+      "requirement_id": "GM2 145.A.65(b)(1) & EASA Form 6 Part 4.2 – Customer interface procedures/paperwork",
+      "requirement_excerpt": "The Part-145 organisation should take into account these elements to ensure that a clear contract or work order has been concluded before providing maintenance services. 4.2 Customer interface procedures/paperwork.",
+      "compliance": "non_compliant",
+      "reasoning": "The MOE states only that methods and paperwork regarding OPS operators are ‘to be agreed in the maintenance contract’ and that contracts are kept in a separate folder by the technical director. There is no description of the organisation’s standard customer interface procedures, no requirement for a clear contract or work order before maintenance, and no explanation of how work scope, responsibilities, maintenance data, reporting, and records are defined and controlled. This does not meet the expectation in GM2 145.A.65(b)(1) and EASA Form 6 Part 4.2.",
+      "risk": "high",
+      "recommended_fix": "Add a dedicated ‘Customer interface procedures and paperwork’ subsection that: (1) Requires that a written maintenance contract or work order is in place before maintenance is performed, covering scope of work, responsibilities, applicable maintenance data, release conditions, defect reporting, and records handling; (2) References Appendix XI to AMC M.A.708(c) / Appendix IV to AMC1 CAMO.A.315(c) as guidance for contract content; (3) Describes how work orders are raised, approved by the customer, amended and closed; (4) Specifies how communication with the operator (e.g. additional findings, concessions, deferrals) is handled and documented; (5) Clarifies where contract and work order records are kept and for how long."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 4.1 – List of commercial operators",
+      "requirement_excerpt": "4.1 List of the commercial operators to which the organisation provides regular aircraft maintenance services.",
+      "compliance": "non_compliant",
+      "reasoning": "The MOE text only states ‘MAINTENANCE CONTRACT OPERATORS No be.’ which is unclear and appears to mean that there are no maintenance contract operators, but this is not explicit. There is no list or clear statement of whether the organisation provides regular maintenance to commercial operators.",
+      "risk": "low",
+      "recommended_fix": "Clarify this part as follows: (1) If the organisation does not provide regular aircraft maintenance services to any commercial operators, state explicitly: ‘The organisation does not provide regular aircraft maintenance services to commercial operators; therefore, no list is applicable.’ (2) If it does, include or reference a controlled list of such operators (e.g. in an appendix maintained by the technical director) and describe how it is kept up to date."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 5.2 – List of subcontractors",
+      "requirement_excerpt": "5.2 List of subcontractors.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states ‘CATALOG SUBCONTRACTORS Maintenance organization No’, which appears to mean that the organisation has no subcontractors, but the wording is unclear. There is no explicit statement or controlled list as expected by EASA Form 6 Part 5.2.",
+      "risk": "low",
+      "recommended_fix": "Rewrite this part in clear English: (1) If there are no subcontracted maintenance activities, state: ‘The organisation does not subcontract any maintenance activities; therefore, no subcontractor list is applicable.’ (2) If subcontractors are or may be used, include or reference a controlled list of approved subcontractors (name, approval reference, scope) and describe who maintains it and how it is updated."
+    },
+    {
+      "requirement_id": "EASA Form 6 Part 5.1 – Sample documents; 5.3/5.4 – Lists",
+      "requirement_excerpt": "5.1 Sample documents; 5.3 List of line maintenance locations; 5.4 List of contracted organisations.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that business premises floor plans and a form list with master forms are in a form folder maintained by the technical director and presented upon request. This partially addresses the need for supporting documents and sample forms but does not explicitly identify which MOE forms correspond to the EASA Form 6 items (e.g. authorisation forms, competence assessment forms, deviation/concession forms). There is no mention of line maintenance locations or contracted organisations lists, even to state that they are not applicable.",
+      "risk": "low",
+      "recommended_fix": "In the ‘APPENDICES AND FORMS’ section: (1) Include a table listing all key forms referenced in the MOE (e.g. training card, authorisation review form, deviation application, concession form, external team work order) and where they are stored; (2) Add explicit statements and, if applicable, references to lists of line maintenance locations and contracted organisations, or clearly state that there are none; (3) Ensure that at least sample copies of critical forms are controlled as MOE appendices or in a referenced manual."
+    },
+    {
+      "requirement_id": "AMC1 145.A.30(d) – Sufficient number of personnel (man-hour planning)",
+      "requirement_excerpt": "The maintenance man-hour plan should relate to the anticipated maintenance work load… The maintenance man-hour plan should be reviewed at least every 3 months and updated when necessary.",
+      "compliance": "missing",
+      "reasoning": "The provided MOE text discusses personnel qualifications, authorisations and competence assessment but does not address manpower planning, man‑hour plans, or review of staffing levels as required by AMC1 145.A.30(d).",
+      "risk": "medium",
+      "recommended_fix": "Add a separate subsection (e.g. ‘3.x Manpower planning and man‑hour control’) that: (1) Describes how the organisation establishes and maintains a maintenance man‑hour plan related to anticipated workload (including planning, inspections, records, etc.); (2) States that the plan is reviewed at least every 3 months and updated when necessary; (3) Defines how significant deviations (>25% shortfall) are reported to the compliance monitoring manager and accountable manager; (4) Explains how planned absences and non‑Part‑145 work are taken into account; (5) Describes how risks are assessed and mitigated when actual staff available is less than planned, in line with 145.A.200 management system requirements."
+    },
+    {
+      "requirement_id": "GM 145.A.30(e) & GM2 145.A.30(e) – Human factors and competence assessment",
+      "requirement_excerpt": "Basic human factors and human performance training is provided in accordance with the content requirements of GM 145.A.30(e)… The assessment procedure shall utilise the AMC 1 145.A.30(e) guidelines… The competence assessment utilises the Competence section of GM 2 145.A.30(e).",
+      "compliance": "compliant",
+      "reasoning": "The MOE explicitly states that basic human factors and human performance training is provided in accordance with GM 145.A.30(e), that recurrent training is organised per 3.4.2, and that content emphasises relevant quality and safety information. It also states that competence assessment procedures use AMC1 145.A.30(e) and GM2 145.A.30(e), are performed on joining, on change of duties and annually, and are documented on training cards and assessment forms. This aligns with the provided guidance.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "145.A.70(a)(6) – List of certifying staff and support staff with scope of authorisation",
+      "requirement_excerpt": "a list of the certifying staff and, if applicable, support staff and airworthiness review staff with their scope of authorisation;",
+      "compliance": "unclear",
+      "reasoning": "The MOE text refers to training cards, personnel registers and authorisation review forms but does not clearly state that a controlled list of certifying staff and support staff with their scope of authorisation exists as part of the MOE or its appendices. Without that explicit statement or reference, compliance cannot be confirmed from the excerpt.",
+      "risk": "medium",
+      "recommended_fix": "Add a sentence such as: ‘A current list of certifying staff and, where applicable, support staff, including their individual authorisation numbers and scope of authorisation, is maintained as MOE Appendix XX by the quality manager and is controlled as part of the MOE.’ Ensure that this list is actually maintained and cross‑referenced in the MOE."
+    }
+  ]
+}

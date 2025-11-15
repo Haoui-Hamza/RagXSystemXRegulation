@@ -1,0 +1,80 @@
+{
+  "moe_section_id": "MOE-0005",
+  "moe_section_title": "Maintenance certificates, deferred defects, ADs, modifications and working documents",
+  "summary": "Describes handling of deferred defects, recurring faults, damage repairs, compliance with the aircraft maintenance programme, mandatory airworthiness directives, voluntary changes/modifications, maintenance working documents, work recording, CRS issuance and basic maintenance planning.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "GM2 145.A.65(b)(1) – clear contract or work order",
+      "requirement_excerpt": "The Part-145 organisation should take into account these elements to ensure that a clear contract or work order has been concluded before providing maintenance services.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that maintenance is performed on the basis of the operator’s work order and that the work order is placed on a form prepared by the operator or maintenance person and signed by both parties. However, it does not clearly define the minimum content of the work order or how the organisation ensures that all elements of the maintenance contract (scope, responsibilities, data provision, AD responsibility, etc.) are addressed before work starts, as suggested by the GM reference.",
+      "risk": "medium",
+      "recommended_fix": "Add a subsection such as: \"Before any maintenance is started, a clear work order/contract shall be in place. The work order or associated contract shall, as applicable, define: (1) aircraft identification and total time/cycles; (2) detailed description and reference of the tasks to be performed (including ADs, SBs, SC/SR, defect rectification and deferred items); (3) responsibilities for provision and currency of maintenance data; (4) responsibilities for AD/SB status control; (5) any subcontracting or use of other Part‑145 organisations; and (6) specific customer requirements and limitations. The technical manager shall verify that the work order covers all planned maintenance before accepting the aircraft.\""
+    },
+    {
+      "requirement_id": "145.A.70(a) – MOE content (scope of work, facilities, manpower, staff list, etc.)",
+      "requirement_excerpt": "The organisation shall establish and maintain a maintenance organisation exposition (MOE) that includes, directly or by reference, all of the following: … (6) a list of the certifying staff … (7) a general description of the manpower resources … (8) a general description of the facilities … (9) a specification of the scope of work …",
+      "compliance": "partially_compliant",
+      "reasoning": "Within this section, the MOE describes some aspects of procedures (CRS issuance, use of forms, planning of maintenance by the technical leader) and refers to a personnel register for stamps and authorisation numbers. However, this section does not itself provide or clearly reference the required list of certifying staff with scope of authorisation, general description of manpower resources, facilities, or a formal scope of work specification. These may exist elsewhere in the MOE, but they are not evident from this section alone.",
+      "risk": "medium",
+      "recommended_fix": "Insert explicit cross‑references in this section to the MOE chapters that fulfil 145.A.70(a)(6)–(9), for example: \"The list of certifying staff, support staff and their scopes of authorisation is contained in MOE Section X.X. The general description of manpower resources and planning system is described in Section Y.Y. The description of facilities at each approved location is in Section Z.Z. The organisation’s scope of work relevant to the terms of approval is defined in Section W.W.\""
+    },
+    {
+      "requirement_id": "145.A.65(b)(1) – maintenance procedures and terminology consistency",
+      "requirement_excerpt": "Ensuring consistency in the design of procedures and the use of terminology, abbreviations, references, etc.",
+      "compliance": "non_compliant",
+      "reasoning": "The text is linguistically inconsistent and in places unclear (e.g. \"maintenance certificate and deferred defects (resp.) -sideways\", \"damage can be verify bordering exchangeable\", \"mixed Clarifications\", \"Others machines\", \"renovation work\"). Terminology for key roles and documents (e.g. HTA, technical leader, maintenance certificate, work order, trip log, logbook/technical logbook) is not clearly defined and is used inconsistently. This conflicts with the requirement to ensure consistency in procedures and terminology.",
+      "risk": "high",
+      "recommended_fix": "Rewrite this section in clear, consistent technical English and standardise terms. For example: define \"HTA\" (e.g. \"HTA = certifying staff\"), use one consistent term for the certificate of release to service (CRS), one term for the technical log/trip log, and one term for the technical manager/technical director. Remove ambiguous phrases and correct grammar so that procedures are unambiguous. Example: \"Deferred defects are recorded and controlled in the aircraft technical log. The certifying staff (HTA) records the rectification deadline in the CRS and/or technical log in accordance with the operator’s MEL and TC holder’s instructions.\""
+    },
+    {
+      "requirement_id": "145.A.50(b) / ML.A.801(e) / M.A.612 – documentation of changes/repairs (SC/SR context)",
+      "requirement_excerpt": "the legal or natural person responsible for the embodiment of a change or a repair should compile details of the work accomplished… The aircraft logbook should contain an entry referring to EASA Form 123; both EASA Form 123 and the release to service required after the embodiment of the SC/SR should be signed by the same person.",
+      "compliance": "unclear",
+      "reasoning": "The MOE describes procedures for damage repairs and voluntary changes/modifications, including preparation of a work plan, step‑by‑step instructions and record‑keeping in maintenance documents. However, it does not specifically address SC/SR under CS‑STAN, EASA Form 123, or the requirement that the same person signs both EASA Form 123 and the CRS. Since the excerpt is specific to SC/SR and CS‑STAN, and the MOE text may be intended for general repairs and modifications, it is unclear whether the organisation intends to use SC/SR and how it complies with these specific documentation requirements.",
+      "risk": "medium",
+      "recommended_fix": "If the organisation intends to embody CS‑STAN Standard Changes/Repairs, add a dedicated subsection: \"For CS‑STAN Standard Changes and Standard Repairs (SC/SR), the organisation shall compile an engineering file and EASA Form 123 in accordance with CS‑STAN and applicable Part‑ML/Part‑M/Part‑145 provisions. The aircraft logbook shall contain an entry referring to EASA Form 123. EASA Form 123 and the associated CRS shall be signed by the same certifying staff member. All SC/SR records shall be retained in accordance with Part‑145 record‑keeping requirements.\" If SC/SR are not used, state this explicitly."
+    },
+    {
+      "requirement_id": "145.A.65(b)(2) – specialised services procedures",
+      "requirement_excerpt": "there is a need to establish maintenance procedures that cover the control of any specialised process.",
+      "compliance": "unclear",
+      "reasoning": "This MOE section does not explicitly address specialised services (e.g. NDT) or their control. It is possible that such procedures are covered elsewhere in the MOE. Based solely on this section, compliance with the requirement to have procedures for specialised processes cannot be determined.",
+      "risk": "medium",
+      "recommended_fix": "Add a cross‑reference or short statement in this section: \"Specialised services (e.g. NDT, welding, etc.) and their control are described in MOE Section X.X, including qualification of personnel, control of procedures, equipment and certification of results.\" If specialised services are performed under this section (e.g. as part of damage repairs), explicitly state that such work shall follow those specialised‑service procedures."
+    },
+    {
+      "requirement_id": "M.A.709 / AMC M.A.709 – use and currency of maintenance data (as relevant to contracts)",
+      "requirement_excerpt": "When using maintenance data provided by the customer, the CAMO is responsible for ensuring that this data is current. As a consequence, it should establish appropriate procedures or provisions in the contract with the customer.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that, if the operator’s maintenance programme is not available, the organisation follows TC/STC holder maintenance requirements and bulletins, and that ADs/ECIs/SIBs are obtained from authorities and/or the CAMO. However, it does not clearly describe how the organisation ensures that customer‑provided maintenance data (e.g. operator’s AMP, customer‑supplied manuals) are current, nor how this is addressed in contracts or work orders, which is relevant when working under contract with a CAMO/operator.",
+      "risk": "medium",
+      "recommended_fix": "Add a paragraph: \"When maintenance data (e.g. AMP, manuals, task cards) are provided by the operator/CAMO, the technical manager shall ensure, via contract provisions and documented checks, that such data are current before use. The work order or maintenance contract shall specify the party responsible for providing and updating maintenance data. Any identified outdated data shall be reported to the operator/CAMO and not used until updated.\""
+    },
+    {
+      "requirement_id": "M.A.801(f),(g) – CRS with incomplete maintenance and limitations",
+      "requirement_excerpt": "when the required maintenance cannot be completed, a CRS may be issued with the approved aircraft limitations… A CRS shall not be issued in the case of any known non-compliance which endangers flight safety.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes deferred defects, fault transfer, and that deadlines for rectification and deferred defects are recorded in the maintenance certificate and trip log. However, it does not explicitly state the conditions under which a CRS may be issued with outstanding maintenance and associated limitations, nor does it clearly state that a CRS must not be issued if any known non‑compliance endangers flight safety.",
+      "risk": "high",
+      "recommended_fix": "Insert explicit CRS rules: \"If required maintenance cannot be completed, a CRS may be issued only when the aircraft remains within approved limitations (e.g. MEL, CDL, AD provisions). The CRS and technical log shall clearly state the incomplete maintenance and any applicable airworthiness or operational limitations. A CRS shall not be issued if any known non‑compliance endangers flight safety. The certifying staff (HTA) is responsible for verifying these conditions before issuing the CRS.\""
+    },
+    {
+      "requirement_id": "145.A.30(j)(5) / AMC1 145.A.30(j)(5) – one‑off authorisations (unforeseen defects)",
+      "requirement_excerpt": "Issuing a one-off authorisation should only be considered under the responsibility of the compliance monitoring manager… The organisation’s compliance monitoring personnel should assess each situation individually prior to issuing a one-off authorisation…",
+      "compliance": "missing",
+      "reasoning": "This MOE section deals with defects, recurring faults and on‑site repairs, but does not mention any procedure for issuing one‑off certification authorisations to certifying staff on aircraft types for which they do not hold a type‑rated authorisation, nor the involvement of compliance monitoring personnel as described in the AMC.",
+      "risk": "medium",
+      "recommended_fix": "Add a dedicated subsection: \"In unforeseen situations where an aircraft is grounded away from base and no appropriately type‑authorised certifying staff is available, a one‑off certification authorisation may be issued in accordance with 145.A.30(j)(5). The compliance monitoring manager (or nominated compliance monitoring personnel) shall: (a) assess the situation and confirm that the defect is unforeseen; (b) ensure full technical details and maintenance data are available; (c) verify that the person proposed holds equivalent authorisations on similar technology and has adequate experience; (d) ensure required tools/test equipment are available; and (e) define a detailed step‑by‑step worksheet. The one‑off authorisation, including scope and limitations, shall be documented and retained with the work pack. The holder shall sign off the worksheet and the work shall be verified as far as practicable.\""
+    },
+    {
+      "requirement_id": "145.A.65(b)(1) – maintenance procedures and record‑keeping",
+      "requirement_excerpt": "In accordance with Part-ML, Part-M Subpart F, Part-CAO or Part-145 (e.g. ML.A.801(e), M.A.612, CAO.A.065 and 145.A.50(b)), the legal or natural person responsible for the embodiment of a change or a repair should compile details of the work accomplished.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes that work orders, maintenance certificates, checklists and additional forms are used; that all actions, inspections and measurements are recorded; that incorrect entries are crossed out; and that CRS is issued by authorised HTA. However, it does not clearly link these records to specific retention requirements for changes/repairs, nor does it explicitly state that all details of changes/repairs (e.g. parts list, drawings, analysis where applicable) must be compiled and retained as part of the work pack.",
+      "risk": "medium",
+      "recommended_fix": "Clarify: \"For all changes and repairs, the work pack shall include complete details of the work accomplished, including, as applicable, drawings, repair or modification instructions, list of parts and materials used (with traceability), measurement and test results, and references to applicable data (e.g. SB, STC, repair scheme). These records shall be retained in accordance with Part‑145 record‑keeping requirements. The CRS shall reference the work order and, where applicable, the modification/repair reference.\""
+    }
+  ]
+}

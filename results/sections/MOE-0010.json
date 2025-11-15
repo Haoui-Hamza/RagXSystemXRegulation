@@ -1,0 +1,72 @@
+{
+  "moe_section_id": "MOE-0010",
+  "moe_section_title": "Internal Audits, Deviation Handling and Certifying Staff Qualification/Authorisation",
+  "summary": "Describes internal method and product line audits, handling of audit findings and corrective actions, processing of NAA findings, and qualification/authorisation criteria for certifying staff and support personnel, including one‑time authorisations.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "AMC1 145.A.35(d)/(e) page 381",
+      "requirement_excerpt": "The elements, general content and length of such recurrent training should be specified in the MOE. The programme for recurrent training should list all certifying staff and support staff and when the training will take place, the elements of such a training, and an indication that it was carried out on time as planned.",
+      "compliance": "non_compliant",
+      "reasoning": "The MOE section mentions that certifying staff and support personnel must have completed human factors and recurrent training and references another MOE section (3.4.2), but it does not describe the recurrent training programme, its elements, duration, planning, or how completion is recorded. None of the required programme details are present in this section.",
+      "risk": "medium",
+      "recommended_fix": "Add a dedicated subsection in this MOE chapter summarising the recurrent training programme for certifying staff and support staff, for example:\n\n\"Recurrent Training Programme\n- The organisation maintains a recurrent training programme for all certifying staff and support staff in accordance with 145.A.35(d).\n- The programme covers: (a) updates in relevant technology and products maintained; (b) changes to organisation and operator procedures; (c) safety management and human factors topics; and (d) lessons learned from internal and external audit findings and occurrence reports.\n- The MOE Section 3.4.2 details the elements, general content and minimum duration of recurrent training for each staff group. As a minimum, recurrent training is provided at least once in every 24‑month period.\n- The Quality/Compliance Monitoring function maintains a recurrent training plan listing all certifying staff and support staff, the planned training dates, the training elements to be covered, and records of completion. Completion data is transferred to individual staff records in accordance with 145.A.55(d)(3).\""
+    },
+    {
+      "requirement_id": "AMC1 145.A.35(f) page 381",
+      "requirement_excerpt": "All prospective certifying staff and support staff should be assessed for their competency related to their intended duties. Said assessment should be conducted in accordance with AMC 1, 2, 3, 4 and 5 to point 145.A.30(e), as applicable.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE text requires that certifying staff have sufficient knowledge, experience, human factors and recurrent training, and that their competence, eligibility, ability and language skills are assessed, possibly including monitoring of maintenance work and demonstration tests. However, it does not clearly describe a structured competency assessment process linked to intended duties, nor does it reference the detailed assessment criteria or methods as per AMC to 145.A.30(e).",
+      "risk": "medium",
+      "recommended_fix": "Clarify the competency assessment process, for example:\n\n\"Competency Assessment of Certifying and Support Staff\n- Before initial issue, change of scope, or renewal of an authorisation, the organisation performs a documented competency assessment covering: technical knowledge of the relevant aircraft/components, practical skills, understanding of organisation and operator procedures, human factors and safety attitude, and communication/language skills.\n- The assessment is conducted by nominated assessors using standard forms and methods (e.g. interview, written test, observation of work, practical demonstration) in line with AMC 1–5 to 145.A.30(e).\n- The assessment is related to the intended duties and scope of authorisation (line/base, systems, product line, etc.). The results are recorded in the personnel file and form the basis for the authorisation decision.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.35(a) page 379",
+      "requirement_excerpt": "Holding a Part-66 licence ... does not mean by itself that the holder is qualified to be authorised as certifying staff... The organisation is responsible for assessing the competency... The organisation shall ensure that certifying staff and support staff have an adequate understanding of the relevant aircraft and/or components... and associated organisation procedures.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE requires that certifying staff have sufficient knowledge of aircraft/equipment, organisation activities and methods, suitable maintenance experience, and that competence and language skills are evaluated, which aligns in principle with AMC 145.A.35(a). However, it does not explicitly state that a Part‑66 licence alone is insufficient, nor does it detail how understanding of specific aircraft configurations and organisation/operator procedures is ensured and assessed.",
+      "risk": "medium",
+      "recommended_fix": "Strengthen the text to reflect the AMC, for example:\n\n\"Possession of a Part‑66 AML or national qualification alone does not entitle a person to certifying staff or support staff authorisation. The organisation assesses and confirms that each candidate:\n- has adequate knowledge, skills and experience for the specific aircraft type/group or component configuration maintained;\n- understands the applicable operator and organisation procedures (e.g. technical log, MEL, component handling, independent inspections);\n- demonstrates an appropriate safety attitude and adherence to procedures.\nThese aspects are verified through training records and a documented competency assessment prior to authorisation.\""
+    },
+    {
+      "requirement_id": "145.A.35(n) and associated AMC page 379/382",
+      "requirement_excerpt": "The holder of a category B2 aircraft maintenance licence may only exercise the certification privileges described in point 66.A.20(a)(3)(ii)... following the satisfactory completion of: (i) the relevant category A aircraft task training; and (ii) 6 months of documented practical experience... Task training and examination/assessment shall be carried out by the maintenance organisation issuing the certifying staff authorisation. The practical experience shall be also obtained within such maintenance organisation.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that B1/B2/B3/C persons require the necessary qualifications in their AML and that the organisation may grant HTA authorisations to non‑type‑trained B1/B3 and to A and B2 personnel for certain tasks in accordance with AMC 145.A.30(j)(5) and 145.A.35(n+o). However, it does not explicitly require the specific category A task training and 6 months of documented practical experience within the issuing organisation, nor does it state that task training and assessment are carried out by the organisation itself as required.",
+      "risk": "high",
+      "recommended_fix": "Add explicit conditions for granting B2 minor line maintenance/simple defect rectification privileges, for example:\n\n\"Additional Privileges for B2 Licence Holders\n- A B2 licence holder may be authorised to perform and certify minor scheduled line maintenance and simple defect rectification tasks in accordance with 66.A.20(a)(3)(ii) only after:\n  • completion of relevant category A task training (theoretical and practical hands‑on) for the aircraft type(s) concerned; and\n  • completion of at least 6 months of documented practical experience covering the scope of the intended authorisation within this organisation.\n- The task training and associated examination/assessment are conducted by this Part‑145 organisation. The practical experience is obtained under supervision within this organisation.\n- The organisation ensures, in line with AMC1 145.A.35(m), that the task training covers all tasks included in the authorisation.\""
+    },
+    {
+      "requirement_id": "AMC1 145.A.30(j)(5) and AMC 145.A.30(j)(5)(i) page 376",
+      "requirement_excerpt": "Issuing a one-off authorisation should only be considered under the responsibility of the compliance monitoring manager... The organisation’s compliance monitoring personnel should assess each situation individually... A one-off authorisation should not be issued if the level of certification required could exceed the knowledge and experience level of the person... The organisation has an approved procedure in place for coordinating and controlling the total maintenance activity undertaken at the location under the authority of the one-off authorisation...",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE mentions that one-time HTA authorisation can be granted to an employee who has a corresponding HTA rating for an aircraft of similar technology, structure and systems. However, it does not define the process for one‑off authorisations in unforeseen cases, does not assign responsibility to the compliance monitoring manager, and does not address the checks required by the AMC (technical details, coordination procedure, step‑by‑step worksheet, equivalent authorisations, etc.).",
+      "risk": "high",
+      "recommended_fix": "Introduce a clear one‑off authorisation procedure, for example:\n\n\"One‑Off Certification Authorisations (Unforeseen Cases)\n- In unforeseen situations as per 145.A.30(j)(5), a one‑off authorisation may be issued only under the responsibility of the Compliance Monitoring Manager (CMM) after an individual assessment of the case.\n- Prior to issuing such an authorisation, the CMM ensures that:\n  • full technical details of the required work are established and communicated to the certifying staff;\n  • an approved procedure exists for coordinating and controlling all maintenance activity at the location under the one‑off authorisation;\n  • the person receives all necessary maintenance data and special instructions, and a detailed step‑by‑step worksheet is prepared and provided;\n  • the person holds equivalent authorisations on aircraft of similar technology, construction and systems, and has sufficient knowledge and experience for the task.\n- The holder signs off each step on the worksheet; completed tasks are verified and recorded with the one‑off authorisation reference. All one‑off authorisations are logged and reviewed by the CMM.\""
+    },
+    {
+      "requirement_id": "AMC1 145.A.35(m) page 381",
+      "requirement_excerpt": "It is the responsibility of the Part-145 organisation issuing the category A certifying staff authorisation to ensure that the task training received by this person covers all the tasks to be authorised.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE allows granting task‑based HTA authorisations (especially for category A and B2) based on specific training, work experience and, if necessary, a test. It does not explicitly state that the organisation is responsible for ensuring that task training covers all tasks included in the authorisation, nor does it describe how this is verified and documented.",
+      "risk": "medium",
+      "recommended_fix": "Clarify the organisation’s responsibility, for example:\n\n\"For all task‑based (category A and equivalent) authorisations, the organisation ensures that the task training syllabus explicitly lists all tasks to be authorised and that the candidate has successfully completed training and assessment for each task. The Quality/Training function verifies and documents that the training coverage matches the scope of the authorisation before it is issued.\""
+    },
+    {
+      "requirement_id": "AMC1 145.A.30(d) point 6 page 359",
+      "requirement_excerpt": "The man-hours allocated to the compliance monitoring function should be sufficient to meet the requirement of point 145.A.200(a)(6)... Where compliance monitoring staff also perform other functions, the time allocated to those functions needs to be taken into account in determining the number of compliance monitoring staff.",
+      "compliance": "unclear",
+      "reasoning": "The MOE section describes the internal audit process, responsibilities of the quality manager, and follow‑up of deviations, but it does not address man‑hour planning or the sufficiency of resources for the compliance monitoring function. This topic may be covered elsewhere in the MOE; it is not addressed in this section.",
+      "risk": "low",
+      "recommended_fix": "If not already covered in another MOE section, add a short cross‑reference here stating that compliance monitoring resources and man‑hour planning are described in the personnel/resources section (e.g. MOE 3.x) and are dimensioned to support the audit and follow‑up activities described in this chapter."
+    },
+    {
+      "requirement_id": "AMC1 145.A.35(d) point 3 page 381",
+      "requirement_excerpt": "The content of recurrent training should be related to relevant audit findings, hazards and related safety risks identified. It is recommended that such training is reviewed at least once in every 24-month period.",
+      "compliance": "non_compliant",
+      "reasoning": "The MOE section on audits and deviations does not link audit findings and identified hazards to the content of recurrent training, nor does it state that recurrent training content is periodically reviewed based on such inputs.",
+      "risk": "medium",
+      "recommended_fix": "Add a link between audits and training, for example:\n\n\"Use of Audit Results for Training\n- The Quality/Compliance Monitoring function analyses audit findings, hazards and safety risks and provides this information to the training function.\n- Recurrent training content for certifying staff and support staff is periodically (at least every 24 months) reviewed and updated based on these audit results and other safety information, so that training addresses the most relevant human error and safety issues identified in maintenance.\""
+    }
+  ]
+}

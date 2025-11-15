@@ -1,0 +1,96 @@
+{
+  "moe_section_id": "MOE-0001",
+  "moe_section_title": "Management, facilities, line stations and maintenance capability",
+  "summary": "Section describes contact details, nominated postholders and their responsibilities, substitution arrangements, reference to organisational chart, certifying and support staff references, manpower planning reference, description of main workshop and line maintenance facilities (permanent and temporary), procedures for approval and use of line maintenance locations, and a general description of how maintenance capability is determined and maintained.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "145.A.70(a)(3)",
+      "requirement_excerpt": "the title(s) and name(s) of the person(s) nominated under points 145.A.30(b), (c) and (ca);",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE clearly names and titles the person nominated under 145.A.30(b) (Technical Director) and 145.A.30(c) (Quality Manager). It also identifies the accountable manager (145.A.30(a)). However, there is no mention of a person nominated under 145.A.30(ca) (safety manager) in the provided text, and the accountable manager’s statement required by 145.A.70(a)(1) is not present in this section.",
+      "risk": "medium",
+      "recommended_fix": "Add an explicit subsection listing all persons nominated under 145.A.30(b), (c) and (ca), including names, titles and contact details. Example: \"Nominated persons in accordance with 145.A.30: (b) Maintenance Manager / Technical Director: Anton Anonymous, tel…, email…; (c) Compliance Monitoring Manager / Quality Manager: Mikko Mallikas, tel…, email…; (ca) Safety Manager: [Name], [title], tel…, email….\" Ensure that the accountable manager’s exposition statement per 145.A.70(a)(1) is included in the MOE (if located elsewhere, cross‑reference it here)."
+    },
+    {
+      "requirement_id": "145.A.70(a)(4)",
+      "requirement_excerpt": "the duties and responsibilities of the persons nominated under points 145.A.30(b), (c) and (ca), including the matters on which they may deal directly with the competent authority on behalf of the organisation;",
+      "compliance": "partially_compliant",
+      "reasoning": "The duties and responsibilities of the accountable manager, Technical Director and Quality Manager are described in detail. However, the text does not clearly state on which matters each of these persons may deal directly with the competent authority. The safety manager (145.A.30(ca)) is not described at all in this excerpt.",
+      "risk": "medium",
+      "recommended_fix": "Amend the responsibilities paragraphs to explicitly state the interfaces with the competent authority. For example: \"The Technical Director is authorised to deal directly with the competent authority on all matters related to maintenance standards, facilities, scope of work and MOE changes within his area of responsibility.\" and \"The Quality Manager / Compliance Monitoring Manager is authorised to deal directly with the competent authority on all matters related to the management system, audits, findings and corrective actions.\" Add a subsection for the Safety Manager (145.A.30(ca)) describing duties and specifying on which safety‑management matters he/she may deal directly with the authority."
+    },
+    {
+      "requirement_id": "145.A.70(a)(5)",
+      "requirement_excerpt": "an organisation chart showing the accountability and associated lines of responsibility, established in accordance with point 145.A.200(a)(1), between all the persons referred to in points 145.A.30(a), (b), (c) and (ca);",
+      "compliance": "partially_compliant",
+      "reasoning": "The text refers to an \"ORGANIZATIONAL CHART\" but does not reproduce it in the provided excerpt. It is therefore unclear whether the chart actually shows the accountability and lines of responsibility between the accountable manager, the 145.A.30(b), (c) and (ca) postholders.",
+      "risk": "medium",
+      "recommended_fix": "Ensure that the MOE contains a clear organisation chart (e.g. as a figure in this section or in an appendix) that explicitly shows reporting lines between the Accountable Manager, Technical Director (145.A.30(b)), Quality/Compliance Monitoring Manager (145.A.30(c)), Safety Manager (145.A.30(ca)) and any deputies. In this section, add a sentence such as: \"The organisation chart in Appendix [X] shows the accountability and reporting lines between the Accountable Manager and the nominated postholders in accordance with 145.A.30(a), (b), (c) and (ca).\""
+    },
+    {
+      "requirement_id": "145.A.70(a)(6)",
+      "requirement_excerpt": "a list of the certifying staff and, if applicable, support staff and airworthiness review staff with their scope of authorisation;",
+      "compliance": "partially_compliant",
+      "reasoning": "The section states that certifying staff and support staff are presented in section 5.5, but the actual list and scopes of authorisation are not visible in this excerpt. It is therefore only partially demonstrated that the requirement is met.",
+      "risk": "low",
+      "recommended_fix": "In section 5.5, ensure there is a controlled list identifying each certifying staff member and support staff with their individual authorisation scope (aircraft types, ratings, limitations). In this section, clarify the reference, e.g.: \"The list of certifying staff and support staff, including their individual scopes of authorisation, is contained in MOE Part 5.5.\""
+    },
+    {
+      "requirement_id": "145.A.70(a)(7) & AMC1 145.A.30(d)",
+      "requirement_excerpt": "a general description of the manpower resources and of the system that is in place to plan the availability of staff, as required by point 145.A.30(d); … Has sufficient staff means that the organisation employs or contracts competent staff, as detailed in the man-hour plan… The maintenance man-hour plan should be reviewed at least every 3 months and updated when necessary.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE briefly states that labour operational planning is presented in section 2.22 and that HTAs may also work as support persons. However, there is no description here of the man‑hour planning system, review frequency, treatment of absences, or how deviations are reported, as suggested by AMC1 145.A.30(d). The general description of manpower resources is minimal.",
+      "risk": "medium",
+      "recommended_fix": "Expand the manpower description (either here or by clearly referencing 2.22) to include: (1) how the maintenance man‑hour plan is established (including all maintenance activities and planned absences); (2) how often it is reviewed (at least every 3 months); (3) how significant deviations (>25% shortfall) are reported to the Compliance Monitoring Manager and Accountable Manager; and (4) how risks are assessed and mitigated when actual staff is below plan. Example text: \"The organisation maintains a rolling 12‑month maintenance man‑hour plan covering all planned maintenance activities and known absences. The plan is reviewed at least every 3 months and updated as necessary. Any deviation exceeding 25% shortfall in available man‑hours in a calendar month for any function is reported by the departmental manager to the Compliance Monitoring Manager and Accountable Manager for review and risk mitigation.\""
+    },
+    {
+      "requirement_id": "145.A.70(a)(8) & 145.A.25(a)-(c) & AMC2 145.A.20",
+      "requirement_excerpt": "a general description of the facilities at each approved location; … Facilities are provided appropriate for all planned work, ensuring in particular, protection from the weather elements… The working environment… is appropriate for the task… Facilities such as stores, line stations… not located together with the main facilities… may be covered… provided that the MOE identifies these facilities and contains procedures to control such facilities…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE provides a reasonable description of the main workshop facilities (address, size, utilities, storage arrangements) and describes permanent and temporary line maintenance locations, including conditions (protection from rain, dust, wind, lighting, ability to interrupt work). It also describes a commissioning inspection and approval process for line stations and references MOE 5.3 for the list of temporary locations. However, the description of office accommodation and segregation of specialised workshops is limited, and the control of remote facilities (e.g. stores, subcontractor workshops) is only partially addressed. The requirement that the working environment must ensure personnel effectiveness (temperature, dust, contamination) is only partly covered by generic statements.",
+      "risk": "medium",
+      "recommended_fix": "Enhance the facilities description to explicitly address 145.A.25(a)-(c): (1) describe office accommodation for management and certifying staff at each location; (2) state how specialised workshops/bays (e.g. avionics, structures, component shops) are segregated to avoid contamination; (3) explicitly state how temperature, dust and other contamination are controlled in hangars, workshops and offices; (4) clearly identify all remote facilities (stores, line stations, subcontractor workshops) and reference the procedures used to control them. Example: \"At the Vantaa main base, office accommodation for planning, quality and certifying staff is located adjacent to the hangar and provides adequate space, lighting and IT infrastructure. Specialised workshops (e.g. avionics, structures) are physically separated from general workshop areas to prevent cross‑contamination. The working environment is controlled by [heating/ventilation] to maintain temperatures suitable for maintenance tasks and to minimise dust and airborne contamination. All remote facilities (line stations and external stores) are listed in MOE 5.3 and are controlled in accordance with procedure [ref] in Part 2.\""
+    },
+    {
+      "requirement_id": "145.A.75(a) & (c) & AMC2 145.A.20",
+      "requirement_excerpt": "maintain any aircraft or component for which it is approved at the locations identified in the certificate and in the MOE; … maintain… at any location… subject to the conditions specified in the exposition; … facilities… not located together with the main facilities… may be covered… provided that the MOE identifies these facilities and contains procedures to control such facilities…",
+      "compliance": "compliant",
+      "reasoning": "The MOE describes permanent and temporary line maintenance locations, sets a maximum duration for temporary sites, and defines a commissioning inspection and approval process, including conditions for protection from weather, lighting, and working conditions. It also describes the approval path (NAA confirmation for permanent sites, indirect approval for temporary sites) and requires conditions to be recorded in a service station report. This aligns with the requirement to specify conditions under which maintenance may be performed at locations other than the main base.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "145.A.70(a)(9)",
+      "requirement_excerpt": "a specification of the scope of work of the organisation that is relevant to the terms of approval as required by point 145.A.20;",
+      "compliance": "partially_compliant",
+      "reasoning": "The section provides a narrative description of \"maintenance capabilities\" and how they are determined and maintained, but it does not clearly specify the approved scope of work (e.g. ratings, aircraft types, ATA chapters) as required by 145.A.20. The detailed scope may be elsewhere in the MOE, but this is not clearly referenced here.",
+      "risk": "medium",
+      "recommended_fix": "Include an explicit reference to the formal scope of work (e.g. MOE Part 1.9 or an appendix) and ensure that this scope is specified in terms consistent with 145.A.20 (ratings, aircraft types, engines, components, limitations). Example: \"The organisation’s approved scope of work in accordance with 145.A.20 is defined in MOE Part 1.9 / Appendix [X]. This includes the ratings, aircraft and component types and any limitations. The maintenance capability determination described in this section applies to all items listed in that scope of work.\""
+    },
+    {
+      "requirement_id": "145.A.70(a)(1) & related GM (accountable manager’s statement)",
+      "requirement_excerpt": "a statement signed by the accountable manager confirming that the maintenance organisation will at all times work in accordance with this Annex… and with the approved MOE… The accountable manager’s exposition statement… may be used without amendment…",
+      "compliance": "missing",
+      "reasoning": "The provided MOE section identifies the accountable manager but does not contain the required signed exposition statement or a reference to where it is located. Without that statement, the requirement of 145.A.70(a)(1) is not demonstrated in this section.",
+      "risk": "high",
+      "recommended_fix": "Insert the accountable manager’s exposition statement in accordance with the GM text, signed and dated, either in this section or in the introductory part of the MOE, and cross‑reference it here. Example: include the standard paragraph beginning \"This exposition and any associated referenced manuals define the organisation and procedures upon which the Part‑145 approval certificate is issued by [competent authority]…\" followed by the accountable manager’s name, position and signature, and the CEO countersignature if applicable."
+    },
+    {
+      "requirement_id": "GM2 145.A.65(b)(1) & AMC1 145.A.65(b)(2)",
+      "requirement_excerpt": "The Part-145 organisation should take into account these elements to ensure that a clear contract or work order has been concluded before providing maintenance services. … there is a need to establish maintenance procedures that cover the control of any specialised process.",
+      "compliance": "unclear",
+      "reasoning": "The excerpted MOE text does not address maintenance contracts/work orders or the control of specialised processes (e.g. NDT). Therefore, compliance with these guidance materials cannot be assessed based on this section alone.",
+      "risk": "low",
+      "recommended_fix": "Ensure that other MOE sections (e.g. maintenance procedures in Part 2) include procedures for: (1) establishing and controlling maintenance contracts/work orders with operators; and (2) controlling specialised processes such as NDT, including qualification of personnel and process control. Add a cross‑reference in this section if appropriate."
+    },
+    {
+      "requirement_id": "145.A.25(c) – working environment details",
+      "requirement_excerpt": "The working environment… must be such that the effectiveness of personnel is not impaired: temperatures must be maintained… dust and any other airborne contamination are kept to a minimum…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE mentions that work items can be protected from rain, dust and wind at line stations and that there is sufficient lighting and decent working conditions, but it does not explicitly address temperature control or systematic control of dust/contamination in hangars and workshops as required by 145.A.25(c).",
+      "risk": "medium",
+      "recommended_fix": "Add explicit statements on environmental controls in hangars and workshops, e.g.: \"Hangars and workshops are equipped with heating/ventilation systems to maintain temperatures that allow personnel to perform tasks without undue discomfort. Dust and airborne contamination are controlled by [methods], and susceptible systems are sealed or protected whenever visible contamination is present, in accordance with procedure [ref].\""
+    }
+  ]
+}

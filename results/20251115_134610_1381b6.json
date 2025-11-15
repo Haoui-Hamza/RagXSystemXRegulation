@@ -1,0 +1,38 @@
+{
+  "summary": "The organisation keeps no individual competence records for contracted base-maintenance mechanics and only records that the supplier is approved. This conflicts with Part\u2011145 requirements to assess and record competence and qualifications for all maintenance personnel, including contracted staff.",
+  "overall_assessment": "non_compliant",
+  "findings": [
+    {
+      "requirement_id": "145.A.55(d) & AMC1 145.A.30(e) (Annex II Part-145, pages 413 & 360)",
+      "requirement_excerpt": "145.A.55(d)(1) The organisation shall ensure that the following records are retained: (i) records of the qualifications, training and experience of the personnel involved in maintenance\u2026 AMC1 145.A.30(e): \u2026planners, mechanics\u2026 whether employed or contracted, are assessed for competency\u2026 A record should be kept of each individual\u2019s qualifications and competency assessment (refer also to point 145.A.55(d)).",
+      "compliance": "non_compliant",
+      "reasoning": "The requirement explicitly covers all personnel involved in maintenance, including contracted mechanics, and AMC1 145.A.30(e) clarifies that individual competency must be assessed and recorded for each person, whether employed or contracted. The described practice keeps no individual competence records for contracted mechanics and only records that the supplier is approved. This does not meet the requirement to retain records of qualifications, training, experience, and competency assessment for each individual contracted mechanic.",
+      "risk": "high",
+      "recommendations": "Establish and implement a procedure to: (1) assess the competency of each contracted mechanic before unsupervised work and on a continuous basis; (2) collect and retain individual records of qualifications, training, experience, and competency assessments for all contracted maintenance personnel performing work under the organisation\u2019s Part\u2011145 approval; and (3) ensure these records are controlled and retained in accordance with 145.A.55(d). Supplier approval alone is not sufficient evidence of individual competence."
+    },
+    {
+      "requirement_id": "AMC1 145.A.30(e) \u2013 validation and documentation of competence (Annex II Part-145, page 360)",
+      "requirement_excerpt": "Competency should be assessed by the evaluation of\u2026 records for basic, organisational, or tasks training and/or product type and differences training, and experience records\u2026 Validation of the above could include a confirmation check with the organisation(s) that issued the document(s)\u2026 A record should be kept of each individual\u2019s qualifications and competency assessment\u2026 This should include copies of all documents that attest to their qualifications\u2026",
+      "compliance": "non_compliant",
+      "reasoning": "The AMC describes how competence is to be assessed and documented, including keeping copies of documents that attest to each individual\u2019s qualifications and experience. The organisation\u2019s practice does not keep any individual records for contracted mechanics, nor is there evidence of documented validation of their qualifications or experience. Recording only that the supplier is approved does not satisfy the requirement to document and retain competence evidence at individual level.",
+      "risk": "high",
+      "recommendations": "Require contracted providers to supply individual competence documentation (e.g. licences, authorisations, training and experience records) for each mechanic used on your work; perform and document your own competency assessment (including on-the-job performance where applicable); and file these records under your Part\u2011145 personnel record system. Consider using a structured template (such as the one in GM3 145.A.30(e)) to standardise experience/training records."
+    },
+    {
+      "requirement_id": "GM3 145.A.30(e) \u2013 template for recording experience/training (Annex II Part-145, page 370)",
+      "requirement_excerpt": "The following template may be used to record the professional experience gained in an organisation and the training received and to be considered during the competency assessment of an individual in another organisation.",
+      "compliance": "unclear",
+      "reasoning": "The GM provides a recommended template for recording individual experience and training but does not impose a mandatory format. The non-compliance arises from the absence of any individual records, not from non-use of this specific template. The excerpt itself does not mandate use of the template, so compliance with the template recommendation is not directly assessable from the scenario.",
+      "risk": "low",
+      "recommendations": "Adopt a structured format (for example, based on the GM3 template) for recording experience and training of contracted mechanics to support and evidence the required competency assessments."
+    },
+    {
+      "requirement_id": "AMC2 145.A.55(d) \u2013 control of personnel records (Annex II Part-145, page 416)",
+      "requirement_excerpt": "The record may be kept in any format but should be controlled by the organisation\u2019s compliance monitoring function\u2026 The number of persons authorised to access the system should be kept to a minimum\u2026 The competent authority is authorised to access personal records\u2026",
+      "compliance": "non_compliant",
+      "reasoning": "AMC2 145.A.55(d) presupposes that personal records exist for relevant personnel and sets expectations for their control and accessibility. In this case, for contracted mechanics there are no individual records at all, so the organisation cannot demonstrate controlled storage or provide such records to the competent authority. This is a consequential non-compliance with the record-keeping expectations for personnel involved in maintenance.",
+      "risk": "medium",
+      "recommendations": "Once individual competence records for contracted mechanics are established, integrate them into the existing personnel record system under compliance monitoring control, ensure access control is defined, and be prepared to make these records available to the competent authority upon request."
+    }
+  ]
+}

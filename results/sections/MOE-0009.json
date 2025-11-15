@@ -1,0 +1,80 @@
+{
+  "moe_section_id": "MOE-0009",
+  "moe_section_title": "Line Maintenance Methods and Quality System / Audits",
+  "summary": "Describes line maintenance station set‑up, control of tools, parts and defective items, references to workshop methods for several processes, and a broader description of the organisation’s quality system, including audits, meetings, reporting, and management review.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "AMC 145.A.65(c) – independent audit overview and unannounced audits (page 447, points (c) and (f)-(g))",
+      "requirement_excerpt": "The independent audit should provide an objective overview of the complete set of maintenance-related activities… It should include a percentage of unannounced audits… The product audit includes witnessing any relevant testing and visually inspecting the product and the associated documentation.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes that audits provide an objective description of the operations of the entire organisation and that each area of maintenance operations is audited every calendar year. It also mentions method and product audits and that inspections are documented and analysed. However, it does not explicitly state that a percentage of audits will be unannounced, nor does it clearly define the requirement to witness testing and visually inspect products and associated documentation as part of a formal product audit concept aligned with the AMC wording.",
+      "risk": "medium",
+      "recommended_fix": "Add explicit text to the quality/audit section, for example: \"Independent audits provide an objective overview of all maintenance-related activities, including line maintenance. The audit programme includes a defined percentage of unannounced audits, which may be performed during day or night shifts as applicable. Product audits are performed at least once per year for each product line and include witnessing relevant functional tests, visual inspection of the product and associated documentation, verification of maintenance data used, facilities and environment, standard of inspection and precautions, completion of work cards/worksheets, tools and materials used, and authorisation of personnel performing the maintenance.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – annual coverage of all aspects of Part-145 and product lines (page 447, points (d)-(f))",
+      "requirement_excerpt": "The organisation should establish an audit plan… The audit plan should ensure that all aspects of Part-145 compliance are verified every year, including all the subcontracted activities… the independent audit should sample check one product… on each product line every year…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that each area of maintenance operations is audited every calendar year and that planned execution times for audits (methods, product lines and line maintenance) are presented in the quality plan, which is prepared and updated by the quality manager. However, it does not explicitly state that all aspects of Part‑145 compliance are covered annually, including subcontracted activities, nor does it clearly require at least one product audit per product line per year as a demonstration of compliance.",
+      "risk": "medium",
+      "recommended_fix": "Amend the description of the quality plan and audits, for example: \"The quality plan constitutes the audit plan required by Part‑145 and ensures that all aspects of Part‑145 compliance, including all subcontracted activities, are verified at least once every 12 months. The plan includes, for each approved product line (e.g. aircraft, engines, components), at least one product audit per year, during which one representative product undergoing maintenance is sample checked to demonstrate compliance with maintenance procedures and requirements.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – integration and audit of line stations (page 447, point (i))",
+      "requirement_excerpt": "Where the organisation has line stations listed as per point 145.A.75(d), the compliance monitoring documentation should include a description of how these line stations are integrated into the monitoring and include a plan to audit each listed line station at a frequency consistent with the extent of flight activity…",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes line maintenance methods and states that audits cover \"methods, product lines and line maintenance\" and that each area of maintenance operations is audited every calendar year. However, it does not explicitly describe how individual line stations listed in the approval are integrated into the compliance monitoring system, nor does it define a station‑specific audit frequency based on the extent of flight activity at each line station.",
+      "risk": "medium",
+      "recommended_fix": "Insert a specific subsection on line stations within the quality system, for example: \"All line stations listed under 145.A.75(d) are integrated into the compliance monitoring system. The quality plan includes a station‑specific audit schedule, whereby each listed line station is audited at a frequency commensurate with the extent of flight activity and maintenance volume at that station, but at least once every 12 months. The audit scope at line stations includes verification of facilities, tools and equipment, maintenance data availability, staff authorisations, implementation of line maintenance procedures, and control of parts and tools.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – audit plan and scheduling (page 447, point (d))",
+      "requirement_excerpt": "The organisation should establish an audit plan to show when and how often the activities as required by this Regulation will be audited.",
+      "compliance": "compliant",
+      "reasoning": "The MOE states that planned execution times for audits (methods, product lines and line maintenance) are presented in the quality plan, that the planning period is one calendar year, and that the plan is drawn up by the quality manager and approved at the management review meeting. This meets the requirement to have an audit plan showing when and how often activities are audited.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – independence of audits (by analogy with other AMCs provided)",
+      "requirement_excerpt": "The independent audit should provide an objective overview of the complete set of maintenance-related activities…",
+      "compliance": "unclear",
+      "reasoning": "The MOE describes audits as independent and objective but does not clearly state that audits are always carried out by personnel not responsible for the function, procedure or product being audited. The provided Part‑145 excerpt does not explicitly restate the independence criterion, but similar AMCs for Part‑M and Part‑147 emphasise this. Without explicit wording in the MOE, the independence of the audit function remains ambiguous.",
+      "risk": "medium",
+      "recommended_fix": "Clarify the independence of the audit function, for example: \"Independent audits are performed by the quality manager or by auditors designated by him/her who are not responsible for, and do not directly perform, the functions, procedures or maintenance activities being audited. Auditors shall not audit their own work or areas under their direct line responsibility.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – documentation and follow-up of findings (inferred from audit concept and analogous AMCs)",
+      "requirement_excerpt": "Each inspection is documented and any deviations detected are analysed and reported. If an actual or potential risk is identified… the matter [is] processed in a documented manner… The meeting decides on the follow-up action…",
+      "compliance": "compliant",
+      "reasoning": "The MOE states that each inspection is documented, deviations are analysed and reported, and that quality meetings decide on follow‑up actions. It also describes quality reports, deviation reports, responsibilities for corrective actions, monitoring of corrective actions by the quality manager, and management review. This provides a structured system for documenting and following up audit findings consistent with the intent of the audit AMCs.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "AMC 145.A.65(c) – coverage of all maintenance-related activities including line maintenance (page 447, point (c))",
+      "requirement_excerpt": "The independent audit should provide an objective overview of the complete set of maintenance-related activities.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that the independent audit provides an objective description of the operations of the entire organisation and that audits cover methods, product lines and line maintenance. However, the linkage between the line maintenance procedures described in the first part of the section (e.g. tool control, parts control, defect tracking at line stations) and the audit criteria/checklists is not explicitly described, so it is not fully clear how all line maintenance activities are systematically covered.",
+      "risk": "medium",
+      "recommended_fix": "Add a short cross‑reference in the quality system section, for example: \"The audit checklists explicitly cover all maintenance‑related activities, including the line maintenance procedures described in Section L2 (tool and equipment control, parts and defective parts control, defect and repeated defect tracking, technical logbook entries, critical task control, etc.), to ensure that the complete set of maintenance-related activities is objectively reviewed.\""
+    },
+    {
+      "requirement_id": "AMC 145.A.65 – control of tools, equipment and parts at line stations (linked to product audit elements in point (f))",
+      "requirement_excerpt": "The product audit should include in particular the verification of… the facility and maintenance environment; … the tools and material; … the authorisation of the person carrying out maintenance.",
+      "compliance": "compliant",
+      "reasoning": "The MOE describes that permanent and temporary line maintenance stations are equipped with standard tools, supplies and general maintenance equipment; that tools and equipment at line locations are listed in the workshop’s accounting records with location; that quantity and condition are checked using location‑specific lists; that missing or defective items are promptly replenished or replaced; and that tools and supplies are stored in locked rooms or cabinets. It also states that parts are not stored at line stations and that replacement parts are controlled via the workshop warehouse. These provisions provide a clear control system for tools, equipment and parts at line stations, which can be verified during product audits.",
+      "risk": "low",
+      "recommended_fix": ""
+    },
+    {
+      "requirement_id": "AMC 145.A.65 – inclusion of line stations in compliance monitoring documentation (page 447, point (i))",
+      "requirement_excerpt": "the compliance monitoring documentation should include a description of how these line stations are integrated into the monitoring…",
+      "compliance": "partially_compliant",
+      "reasoning": "While the MOE describes operational methods at line stations and states that line maintenance is included in the quality plan, it does not explicitly describe in the compliance monitoring documentation how line stations are integrated (e.g. responsibilities, reporting lines, local quality feedback, and how local findings feed into the central quality system).",
+      "risk": "medium",
+      "recommended_fix": "Expand the quality system description with a paragraph such as: \"Line stations are fully integrated into the compliance monitoring system. Local line maintenance personnel report quality observations, deviations and safety occurrences through the same reporting channels as base maintenance. Line station audits, findings and corrective actions are recorded in the central quality records and are reviewed in the monthly maintenance/quality meetings and in the annual management review.\""
+    }
+  ]
+}

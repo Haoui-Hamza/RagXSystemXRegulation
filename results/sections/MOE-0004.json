@@ -1,0 +1,48 @@
+{
+  "moe_section_id": "MOE-0004",
+  "moe_section_title": "Tools, Equipment, Calibration, Facilities Cleanliness and Use of Maintenance Instructions",
+  "summary": "Describes control, calibration and labelling of tools and measuring devices; responsibilities of the technical director; storage, inspection and use of general and special tools; cleanliness of facilities; and acquisition, control, updating and use of maintenance instructions and repair methods.",
+  "overall_compliance": "partially_compliant",
+  "findings": [
+    {
+      "requirement_id": "AMC M.A.402(d) – tools, equipment and calibration",
+      "requirement_excerpt": "Inspection, service or calibration that is performed on a regular basis should be performed in accordance with the equipment manufacturers’ instructions. All tools requiring calibration should be traceable to an acceptable standard.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes: device cards with last calibration report; time control list with last/next calibration; stickers with expiry dates; annual checks of general tools; defined calibration intervals for measuring devices; conditions for extending intervals; removal from use if suspected unserviceable; and calibration in an accredited laboratory or by a supplier with traceability to national standards. This broadly addresses regular calibration and traceability. However, the text allows extension of calibration intervals based on experience and other factors without explicitly requiring consistency with the equipment manufacturer’s instructions or aircraft maintenance data. It also does not clearly state that manufacturer-recommended intervals are the baseline and may only be exceeded when justified and not less restrictive than those recommendations.",
+      "risk": "medium",
+      "recommended_fix": "Add explicit linkage to manufacturer instructions and clarify limits on extending intervals, for example:\n\n\"Inspection, servicing and calibration of tools and test equipment shall be performed in accordance with the equipment manufacturer’s instructions and, where applicable, the aircraft or component maintenance data. Any calibration interval defined by the maintenance data or equipment manufacturer shall be considered the minimum requirement and shall not be exceeded unless a documented technical justification demonstrates that a longer interval is acceptable and does not conflict with those instructions. All calibrated tools and measuring devices shall be calibrated by an accredited laboratory or supplier whose methods are traceable to national or other officially recognised standards, and this traceability shall be documented on the device card or calibration certificate.\""
+    },
+    {
+      "requirement_id": "AMC M.A.402(e) – working environment",
+      "requirement_excerpt": "The working environment should be appropriate for the maintenance task being performed such that the effectiveness of personnel is not impaired. (a) Temperature … (b) Airborne contamination … (c) Lighting … (d) Noise levels …",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE states that the organisation does not perform work with special cleanliness requirements, that cleanliness is maintained so work can be carried out without compromising quality, that items are protected if work is interrupted, and that premises are cleaned as necessary and after maintenance. This addresses cleanliness and protection from contamination in general terms, but it does not address other key environmental aspects listed in the AMC such as temperature, lighting and noise, nor does it explicitly link cleanliness and environmental controls to ensuring personnel effectiveness.",
+      "risk": "medium",
+      "recommended_fix": "Expand the service facilities section to cover all relevant environmental factors, for example:\n\n\"The working environment shall be maintained such that the effectiveness of personnel is not impaired and the quality of maintenance is not compromised. Temperature in the work areas shall be kept within a range that allows personnel to perform tasks without undue discomfort. Lighting levels shall be sufficient to perform inspections and maintenance effectively, with additional local lighting provided where necessary. Noise levels shall be controlled so as not to distract inspection staff; where this is not possible, suitable personal protective equipment shall be provided. Airborne contamination (dust, filings, paint particles, precipitation) shall be minimised; where this cannot be ensured, susceptible systems and components shall be sealed or otherwise protected until acceptable conditions are re‑established.\""
+    },
+    {
+      "requirement_id": "AMC M.A.402(f) – facilities appropriate for planned maintenance",
+      "requirement_excerpt": "Facilities should be provided appropriate for all planned maintenance. This may require aircraft hangars … Protection from inclement weather means the hangar or component workshop structures should be to a standard that prevents the ingress of rain, hail, ice, snow, wind and dust etc.",
+      "compliance": "unclear",
+      "reasoning": "The MOE mentions that cleanliness is maintained so that required work can be carried out without compromising quality and that premises are cleaned as necessary. It does not clearly describe the physical facilities (e.g. hangars, workshops) or how they provide protection from inclement weather and dust as per the AMC. Without more detail on the facilities themselves, compliance with the requirement for appropriate facilities and protection from weather cannot be fully assessed.",
+      "risk": "medium",
+      "recommended_fix": "Add a short description of the facilities and their protection from weather, for example:\n\n\"The organisation has hangar and workshop facilities appropriate for all planned maintenance within the scope of approval. Aircraft maintenance is performed in hangars that are large enough for the aircraft types maintained and that provide protection from rain, hail, ice, snow, wind and dust. Component workshops are sized to accommodate the components to be maintained and provide equivalent protection from inclement weather and contamination.\""
+    },
+    {
+      "requirement_id": "AMC M.A.402(d) – use of recommended special equipment or equivalent",
+      "requirement_excerpt": "If the organisation responsible for the type design involved recommends special equipment or test apparatuses, personnel should use the recommended equipment or apparatuses or equivalent equipment accepted by the competent authority.",
+      "compliance": "partially_compliant",
+      "reasoning": "The MOE describes general and special tools, their storage, inspection, removal from use if defective, and that the technical director approves alternative tools. However, it does not explicitly state that special tools recommended in the maintenance data or by the type design holder must be used, or that any alternative tools must be equivalent and accepted by the competent authority. The approval of alternative tools is described only as an internal responsibility of the technical director, without reference to equivalence to OEM recommendations or authority acceptance.",
+      "risk": "medium",
+      "recommended_fix": "Clarify the policy on special and alternative tools, for example:\n\n\"Where the aircraft or component maintenance data or the type certificate/STC holder specifies special tools or test equipment, those specified tools shall be used. If an alternative tool or test apparatus is proposed, it shall provide an equivalent level of function, accuracy and safety. The technical director shall document the equivalence assessment and, where required by the competent authority, obtain acceptance before use. The approval of any alternative tool shall be recorded, together with the justification, in the tool control records.\""
+    },
+    {
+      "requirement_id": "AMC M.A.402(d) – quality of work and materials",
+      "requirement_excerpt": "All work should be performed using materials of such quality and in such a manner that the condition of the aircraft or its components after maintenance is at least equal to its or their original or modified condition…",
+      "compliance": "unclear",
+      "reasoning": "The provided MOE text focuses on tools, calibration, cleanliness, maintenance instructions and repair methods, but does not explicitly state a general principle that work and materials must ensure the post‑maintenance condition is at least equal to the original or modified condition. This principle may be covered elsewhere in the MOE, but it is not evident in this section.",
+      "risk": "low",
+      "recommended_fix": "Include a general statement tying the described procedures to the required maintenance standard, for example:\n\n\"All maintenance work described in this section shall be performed using materials and methods that ensure the condition of the aircraft and components after maintenance is at least equal to their original or properly modified condition with regard to structural strength, aerodynamic function, resistance to vibration, deterioration and any other qualities affecting airworthiness.\""
+    }
+  ]
+}
